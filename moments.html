@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moments</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="moments.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Moments</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="journal.html">Journal</a>
+                <a href="todo.html">To-Do List</a>
+            </nav>
+        </header>
+        <main>
+       <input type="file" id="imageUpload" accept="image/*">
+            <input type="text" id="imageName" placeholder="Name your image">
+            <button onclick="uploadImage()">Upload Image</button>
+            <div id="imagesContainer"></div>
+        </main>
+        <footer>
+            <p>&copy; 2025 My Journal</p>
+        </footer>
+    </div>
+</body>
+</html>        

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    max-height: 1800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.section {
+    display: none;
+}
+.section.active {
+    display: block;
+}
